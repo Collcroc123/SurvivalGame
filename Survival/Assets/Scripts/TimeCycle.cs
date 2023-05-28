@@ -6,21 +6,16 @@ using System;
 
 public class TimeCycle : MonoBehaviour
 {
-    [SerializeField] Light sun;
-    [SerializeField, Range(0,24)] float time;
-
-    [SerializeField] private TextMeshProUGUI timeText;
-
+    private Light sun;
+    [SerializeField, Range(0,24)] private float time;
     public Gradient lightColor;
     public Gradient ambientColor;
     public Gradient fogColor;
 
+    [SerializeField] TextMeshProUGUI timeText;
     public bool twelveHourFormat;
 
-    void Start()
-    {
-        sun = GetComponent<Light>();
-    }
+    void Start() => sun = GetComponent<Light>();
 
     void Update()
     {
