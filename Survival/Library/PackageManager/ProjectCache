@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208255686663279
-    m_Hash: 3422111025
+      ticks: 638208955705895957
+    m_Hash: 1831453355
   m_LockFileStatus:
     m_FilePath: C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208255686713331
-    m_Hash: 3241861613
+      ticks: 638208955705939149
+    m_Hash: 3574253872
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -492,6 +492,102 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.5.1
+    nextVersion: 
+- packageId: com.unity.multiplayer.tools@1.1.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.0
+  source: 1
+  resolvedPath: C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.multiplayer.tools@1.1.0
+  assetPath: Packages/com.unity.multiplayer.tools
+  name: com.unity.multiplayer.tools
+  displayName: Multiplayer Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: tool
+  description: Adds a suite of tools that improve workflows for multiplayer development
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.0.0-pre.6
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0
+    - 1.1.0
+    - 2.0.0-pre.2
+    compatible:
+    - 1.0.0
+    - 1.1.0
+    - 2.0.0-pre.2
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.0-pre.1
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.10.1
+  - name: com.unity.collections
+    version: 1.1.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.10.1
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.test-framework
+    version: 1.1.31
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - Multiplayer
+  - Netcode
+  - GameObjects
+  - Tools
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638040483110000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.multiplayer.tools.git
+    revision: 3ac1c04a8a9f6bd7a75572380019c0661b7d0f2c
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.netcode.gameobjects@1.4.0
   testable: 0
@@ -3901,52 +3997,42 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.3.4
     nextVersion: 
-- packageId: com.unity.searcher@4.9.1
+- packageId: com.unity.profiling.core@1.0.2
   testable: 0
   isDirectDependency: 0
-  version: 4.9.1
+  version: 1.0.2
   source: 1
-  resolvedPath: C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.searcher@4.9.1
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
+  resolvedPath: C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
   status: 0
   errors: []
   versions:
     all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
     compatible:
-    - 4.9.1
-    - 4.9.2
-    verified: 4.9.2
+    - 1.0.2
+    verified: 1.0.2
   dependencies: []
   resolvedDependencies: []
   keywords:
-  - search
-  - searcher
+  - profiler
+  - profiling
+  - api
   registry:
     id: main
     name: 
@@ -3957,16 +4043,89 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637695653650000000
+  datePublishedTicks: 637828752310000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
     path: 
   unityLifecycle:
-    version: 4.9.1
+    version: 1.0.2
+    nextVersion: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.0
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.0
+  source: 1
+  resolvedPath: C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    compatible:
+    - 3.2.0
+    - 3.2.1
+    verified: 3.2.1
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638179516640000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: aea4fa1f5378bf9d2cc54a549fb552ab76bf7f4f
+    path: 
+  unityLifecycle:
+    version: 3.2.0
     nextVersion: 
 - packageId: com.unity.collections@1.2.4
   testable: 0
@@ -4091,4 +4250,71 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 
+- packageId: com.unity.searcher@4.9.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.1
+  source: 1
+  resolvedPath: C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.searcher@4.9.1
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    compatible:
+    - 4.9.1
+    - 4.9.2
+    verified: 4.9.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637695653650000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
+    path: 
+  unityLifecycle:
+    version: 4.9.1
     nextVersion: 

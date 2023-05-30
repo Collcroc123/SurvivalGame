@@ -330,6 +330,7 @@
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
+-r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.0/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
