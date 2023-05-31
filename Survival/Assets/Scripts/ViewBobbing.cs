@@ -1,48 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class ViewBobbing : MonoBehaviour
 {
-    public float intensityX, intensityY;
-    public float speed;
-
-    PlayerHands hands;
-    Vector3 offset;
+    [SerializeField, Range(0, 1f)] private float intensity = 0.1f;
+    [SerializeField, Range(0, 30f)] private float frequency = 14f;
+    Vector3 startPos;
     Vector2 movement;
-    float sinTime;
-    bool isSprinting;
+    CharacterController controller;
+    float strength;
+    float speed; // lets frequency change when sprinting
+
 
     void Start()
     {
-        hands = GetComponent<PlayerHands>();
-        offset = hands.offset;
+        controller = GetComponentInParent<CharacterController>();
+        startPos = transform.localPosition;
+        speed = frequency;
+        strength = intensity;
     }
 
     void Update()
     {
-        Vector3 input = new Vector3(movement.x, 0f, movement.y);
+        float input = new Vector3(movement.x, 0f, movement.y).magnitude;
+        if (input == 0f || !controller.isGrounded) return;
+        transform.localPosition += Motion();
 
-        if (input.magnitude > 0f)
-        {
-            if (isSprinting) sinTime += Time.deltaTime * (speed + 3);
-            else sinTime += Time.deltaTime * speed;
-        }
-        else sinTime = 0f;
+        if (transform.localPosition == startPos) return;
+        transform.localPosition = Vector3.Lerp(transform.localPosition, startPos, Time.deltaTime * 5);
+    }
 
-        float sinY = -Mathf.Abs(intensityY * Mathf.Sin(sinTime));
-        Vector3 sinX = hands.transform.right * intensityY * Mathf.Cos(sinTime) * intensityX;
-
-        hands.offset = new Vector3(offset.x, offset.y + sinY, offset.z);
-        hands.offset += sinX;
+    private Vector3 Motion()
+    {
+        Vector3 pos = Vector3.zero;
+        pos.y += Mathf.Sin(Time.time * speed) * (strength / 100f);
+        pos.x += Mathf.Cos(Time.time * speed / 2) * (strength / 100f) * 2;
+        return pos;
     }
 
     public void OnMove(InputValue value) => movement = value.Get<Vector2>();
 
     public void OnSprint(InputValue value)
     {
-        if (value.Get<float>() == 1) isSprinting = true;
-        else isSprinting = false;
+        if (value.Get<float>() == 1)
+        {
+            speed = frequency + 2;
+            strength = intensity + 0.1f;
+        }
+        else
+        {
+            speed = frequency;
+            strength = intensity;
+        }
     }
 }

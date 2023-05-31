@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208955705895957
-    m_Hash: 1831453355
+      ticks: 638210587516512327
+    m_Hash: 1106527450
   m_LockFileStatus:
     m_FilePath: C:/Users/Collin/Documents/Repos/SurvivalGame/Survival/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208955705939149
-    m_Hash: 3574253872
+      ticks: 638210587516522347
+    m_Hash: 3233886686
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

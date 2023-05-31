@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         playerBody = transform.GetChild(0);
         groundCheck = transform.GetChild(1);
         camera = transform.GetChild(2);
+        camera.localRotation = Quaternion.Euler(0, 0, 0);
     }
 
     void Update()
