@@ -386,6 +386,7 @@
 "Assets/Scripts/Block.cs"
 "Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/Explosion.cs"
+"Assets/Scripts/LogicGate.cs"
 "Assets/Scripts/Peg.cs"
 "Assets/Scripts/PlayerCamera.cs"
 "Assets/Scripts/PlayerMovement.cs"
