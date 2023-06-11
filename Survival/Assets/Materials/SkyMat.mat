@@ -52,12 +52,14 @@ Material:
     - _CloudEdge: 0
     - _CloudHeight: 0
     - _FogHeight: 50
-    - _MoonMaskPosition: 0.015
-    - _MoonMaskSize: 0.16
+    - _MoonMaskPosition: -0.05
+    - _MoonMaskSize: 0.25
     - _MoonSize: 0.16
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _StarDensity: 8
+    - _StarCount: 8
+    - _StarDensity: 1
+    - _Star_Size: 4
     - _SunMaskPosition: 0.341
     - _SunMaskSize: 0.3
     - _SunSize: 0.24
