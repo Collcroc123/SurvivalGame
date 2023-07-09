@@ -15,7 +15,7 @@ C:/Users/Collin/Documents/Repos/SurvivalGame/Survival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58476
+58733
 Successfully changed project path to: C:/Users/Collin/Documents/Repos/SurvivalGame/Survival
 C:/Users/Collin/Documents/Repos/SurvivalGame/Survival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Collin/Documents/Repos/SurvivalGame/Survival
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30140] Host "[IP] 192.168.50.121 [Port] 0 [Flags] 2 [Guid] 3528101235 [EditorId] 3528101235 [Version] 1048832 [Id] WindowsEditor(7,CollinsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33176] Host "[IP] 192.168.50.121 [Port] 0 [Flags] 2 [Guid] 4081954324 [EditorId] 4081954324 [Version] 1048832 [Id] WindowsEditor(7,CollinsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30140] Host "[IP] 192.168.50.121 [Port] 0 [Flags] 2 [Guid] 3528101235 [EditorId] 3528101235 [Version] 1048832 [Id] WindowsEditor(7,CollinsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33176] Host "[IP] 192.168.50.121 [Port] 0 [Flags] 2 [Guid] 4081954324 [EditorId] 4081954324 [Version] 1048832 [Id] WindowsEditor(7,CollinsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 104.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 125.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -62,98 +62,98 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
     Vendor:   NVIDIA
     VRAM:     8038 MB
-    Driver:   31.0.15.3141
+    Driver:   31.0.15.3598
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004620 seconds.
+Registered in 0.006282 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 117.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.587 seconds
+- Completed reload, in  0.664 seconds
 Domain Reload Profiling:
-	ReloadAssembly (587ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (435ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008174 seconds.
+Registered in 0.008168 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Collin\Documents\Repos\SurvivalGame\Survival\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.353 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1354ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (959ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (528ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5957 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (0.7 MB). Loaded Objects now: 6408.
-Memory consumption went from 238.4 MB to 237.8 MB.
-Total: 3.949100 ms (FindLiveObjects: 0.577500 ms CreateObjectMapping: 0.181800 ms MarkObjects: 2.918000 ms  DeleteObjects: 0.270800 ms)
+Memory consumption went from 238.4 MB to 237.7 MB.
+Total: 6.095400 ms (FindLiveObjects: 1.043500 ms CreateObjectMapping: 0.261000 ms MarkObjects: 4.310200 ms  DeleteObjects: 0.479500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,62 +168,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1838656.544731 seconds.
-  path: Assets/Flags/Flag2 2.mat
-  artifactKey: Guid(18a05d9d41a9fc344a082145a8fb6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag2 2.mat using Guid(18a05d9d41a9fc344a082145a8fb6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af836f2038111eb1edb0ecaf754044') in 0.245350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flags/Flag2 1.mat
-  artifactKey: Guid(3d1fa8c561e4922409b84f3f1b2f3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag2 1.mat using Guid(3d1fa8c561e4922409b84f3f1b2f3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a0c1019f4f7a922c784af43b66bd0b') in 0.017488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.377869 seconds.
-  path: Assets/Flags/Flag 1.mat
-  artifactKey: Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag 1.mat using Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e3283ff7cef9ebd40e6c405a999a26') in 0.021779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flags/Flag2.mat
-  artifactKey: Guid(68894d23108989d40ba6083bf98e4d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag2.mat using Guid(68894d23108989d40ba6083bf98e4d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e448b2883cf361c220dbffc88bc77c') in 0.017375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.468757 seconds.
-  path: Assets/Flags/Flag 2.mat
-  artifactKey: Guid(97d524d7a0eb0d2439a9d8b70b5df2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag 2.mat using Guid(97d524d7a0eb0d2439a9d8b70b5df2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18d30e19726ea54b9d9648c31fee7c1') in 0.017729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.441493 seconds.
-  path: Assets/Flags/Flag 1.mat
-  artifactKey: Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag 1.mat using Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd6205aff7ed9de04b5de936e9e10d') in 0.011565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
+  Time since last request: 1840006.886457 seconds.
   path: Assets/Flags/Flag.mat
   artifactKey: Guid(30962c54580416847bad2f22d477781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag.mat using Guid(30962c54580416847bad2f22d477781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695fbcedeceb6c780327b2209dae7f82') in 0.011913 seconds 
+Start importing Assets/Flags/Flag.mat using Guid(30962c54580416847bad2f22d477781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a542d01cc10dbba6d20503c0b1e603') in 1.243624 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.990831 seconds.
-  path: Assets/Flags/USA.png
-  artifactKey: Guid(d82c8fefe1e951441abd5ce9b3efd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/USA.png using Guid(d82c8fefe1e951441abd5ce9b3efd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f4bcb76f8789f1e67ed5ee9ccdd4d') in 0.019837 seconds 
+  Time since last request: 2.991359 seconds.
+  path: Assets/Flags/Flag 1.mat
+  artifactKey: Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/Flag 1.mat using Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92877b3da9df8e3d0a18edeaa746a9b7') in 0.011921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.504917 seconds.
-  path: Assets/Flags/USA.png
-  artifactKey: Guid(d82c8fefe1e951441abd5ce9b3efd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/USA.png using Guid(d82c8fefe1e951441abd5ce9b3efd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1e1ccc65988b29bad21dfb81f1347e') in 0.005975 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flags/FlagShader.shadergraph
+  artifactKey: Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagShader.shadergraph using Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe155acb8647b58b42f167f73cdc583') in 0.004948 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004355 seconds.
-  path: Assets/Flags/Flag2 2.mat
-  artifactKey: Guid(18a05d9d41a9fc344a082145a8fb6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flags/Flag2 2.mat using Guid(18a05d9d41a9fc344a082145a8fb6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b2268e3d054839c8fa64eebf8ddf8') in 0.016572 seconds 
+  Time since last request: 8.675305 seconds.
+  path: Assets/Flags/Flag 1.mat
+  artifactKey: Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/Flag 1.mat using Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c61b4f1dce123873e2892676b267a1') in 0.011992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Flags/FlagShader.shadergraph
+  artifactKey: Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagShader.shadergraph using Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee9eecfd76796eb2bcda3534982cc32') in 0.002432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.670041 seconds.
+  path: Assets/Flags/Flag 1.mat
+  artifactKey: Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/Flag 1.mat using Guid(bfa0fd4031a41f741a7c1fc74792a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b9f04767761096367d4fc282f375e4') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Flags/FlagShader.shadergraph
+  artifactKey: Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagShader.shadergraph using Guid(5a67189cca6d68c4f8c92bdec5967ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c73cbbfcf525f6d10f2487122d03ae7') in 0.002295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.200650 seconds.
+  path: Assets/Flags/Flag2 1.mat
+  artifactKey: Guid(3d1fa8c561e4922409b84f3f1b2f3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/Flag2 1.mat using Guid(3d1fa8c561e4922409b84f3f1b2f3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86253d2c0cf0eaec08f14dcd9f953fa4') in 0.016477 seconds 
 AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
